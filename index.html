@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Australian Water Usage and Resources</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script src="vega_lite_vis.js"></script>
+  </head>
+  <body>
+    <h1>Australian Water Resource Visualizations</h1>
+    <h3>Select Regions:</h3>
+    <select id="regionSelect" multiple>
+      <option value="New South Wales">New South Wales</option>
+      <option value="Victoria">Victoria</option>
+      <option value="Queensland">Queensland</option>
+      <option value="South Australia">South Australia</option>
+      <option value="Western Australia">Western Australia</option>
+      <option value="Tasmania">Tasmania</option>
+      <option value="Northern Territory">Northern Territory</option>
+      <option value="Australian Capital Territory">Australian Capital Territory</option>
+    </select>
+    <h2>Different types of water consumption in Australia in 2022</h2>
+    <div id="bar-chart"></div>
+    <h2>Australian Rainfall Map in 2022</h2>
+    <div id="map"></div>
+
+    <script>
+      createBarChart();
+      createMap();
+    </script>
+  </body>
+</html>

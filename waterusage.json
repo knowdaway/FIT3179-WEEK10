@@ -1,0 +1,58 @@
+[
+  {
+    "region": "New South Wales",
+    "year": 2022,
+    "domestic": 528381.96,
+    "industrial": 5292131.8734,
+    "irrigation": 11390989.8049
+  },
+  {
+    "region": "Victoria",
+    "year": 2022,
+    "domestic": 419868.2741,
+    "industrial": 2963671.8925,
+    "irrigation": 4934857.8873
+  },
+  {
+    "region": "Queensland",
+    "year": 2022,
+    "domestic": 346506.1792,
+    "industrial": 3199918.0138,
+    "irrigation": 1269148.487
+  },
+  {
+    "region": "South Australia",
+    "year": 2022,
+    "domestic": 141124.8651,
+    "industrial": 855443.1241,
+    "irrigation": 110560.2576
+  },
+  {
+    "region": "Western Australia",
+    "year": 2022,
+    "domestic": 251454.9531,
+    "industrial": 1230110.1447,
+    "irrigation": 1410622.8629
+  },
+  {
+    "region": "Tasmania",
+    "year": 2022,
+    "domestic": 34578.274,
+    "industrial": 416654.8765,
+    "irrigation": 33560655.0045
+  },
+  {
+    "region": "Northern Territory",
+    "year": 2022,
+    "domestic": 26567.3859,
+    "industrial": 115532.8551,
+    "irrigation": 39207.7696
+  },
+  {
+    "region": "Australian Capital Territory",
+    "year": 2022,
+    "domestic": 30390,
+    "industrial": 17309.5224,
+    "irrigation": 39468.5544
+  }
+]
